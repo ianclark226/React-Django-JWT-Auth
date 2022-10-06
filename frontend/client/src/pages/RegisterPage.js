@@ -1,8 +1,11 @@
 import React from 'react';
+import Layout from 'components/Layout';
 
 const RegisterPage = () => {
   return (
-    <div>RegisterPage</div>
+    <Layout title="Auth Site | Register" content="Register page">
+      <h1>RegisterPage</h1>
+    </Layout>
   )
 }
 
